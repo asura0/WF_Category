@@ -19,6 +19,6 @@ s.platform     = :ios, "7.0"#支持系统版本
 
 s.source       = { :git => "https://github.com/asura0/WF_Category.git", :tag => "1.0.0" }
 
-s.source_files  = 'Category/*.{h,m}'#源码
+s.source_files  = 'Classes/*.{h,m}'#源码
 
 end
