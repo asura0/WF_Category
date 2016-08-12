@@ -10,7 +10,7 @@
 		93573AEC1D54237F00D275B4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93573AEA1D54237F00D275B4 /* DetailViewController.m */; };
 		93573AED1D54237F00D275B4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93573AEB1D54237F00D275B4 /* DetailViewController.xib */; };
 		93573AF01D54261F00D275B4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93573AEF1D54261F00D275B4 /* CustomView.m */; };
-		935C9AFE1D5D622F006B94D8 /* UIButton+Crerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C9AFD1D5D622F006B94D8 /* UIButton+Crerial.m */; };
+		935C9B021D5D6AC8006B94D8 /* UIButton+Crerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 935C9B011D5D6AC8006B94D8 /* UIButton+Crerial.m */; };
 		93607F1F1D51FC0B00E2C9DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93607F1E1D51FC0B00E2C9DD /* main.m */; };
 		93607F221D51FC0B00E2C9DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93607F211D51FC0B00E2C9DD /* AppDelegate.m */; };
 		93607F251D51FC0B00E2C9DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93607F241D51FC0B00E2C9DD /* ViewController.m */; };
@@ -44,8 +44,8 @@
 		93573AEB1D54237F00D275B4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		93573AEE1D54261F00D275B4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		93573AEF1D54261F00D275B4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
-		935C9AFC1D5D622F006B94D8 /* UIButton+Crerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Crerial.h"; sourceTree = "<group>"; };
-		935C9AFD1D5D622F006B94D8 /* UIButton+Crerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Crerial.m"; sourceTree = "<group>"; };
+		935C9B001D5D6AC8006B94D8 /* UIButton+Crerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Crerial.h"; sourceTree = "<group>"; };
+		935C9B011D5D6AC8006B94D8 /* UIButton+Crerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Crerial.m"; sourceTree = "<group>"; };
 		93607F1A1D51FC0B00E2C9DD /* BUtton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUtton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93607F1E1D51FC0B00E2C9DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93607F201D51FC0B00E2C9DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,19 +89,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		935C9AFB1D5D622F006B94D8 /* Classes */ = {
+		935C9AFF1D5D6AC8006B94D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				935C9AFC1D5D622F006B94D8 /* UIButton+Crerial.h */,
-				935C9AFD1D5D622F006B94D8 /* UIButton+Crerial.m */,
+				935C9B001D5D6AC8006B94D8 /* UIButton+Crerial.h */,
+				935C9B011D5D6AC8006B94D8 /* UIButton+Crerial.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		93607F111D51FC0A00E2C9DD = {
 			isa = PBXGroup;
 			children = (
-				935C9AFB1D5D622F006B94D8 /* Classes */,
+				935C9AFF1D5D6AC8006B94D8 /* Classes */,
 				93607F1C1D51FC0B00E2C9DD /* BUtton */,
 				93607F361D51FC0B00E2C9DD /* BUttonTests */,
 				93607F411D51FC0C00E2C9DD /* BUttonUITests */,
@@ -301,7 +302,7 @@
 				93607F251D51FC0B00E2C9DD /* ViewController.m in Sources */,
 				93607F221D51FC0B00E2C9DD /* AppDelegate.m in Sources */,
 				93607F1F1D51FC0B00E2C9DD /* main.m in Sources */,
-				935C9AFE1D5D622F006B94D8 /* UIButton+Crerial.m in Sources */,
+				935C9B021D5D6AC8006B94D8 /* UIButton+Crerial.m in Sources */,
 				93573AF01D54261F00D275B4 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
